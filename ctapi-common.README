@@ -1,0 +1,6 @@
+The ctapi-common package provides common infrastructure for CT-API modules.
+
+To take advantage of this:
+- Install the modules into a directory listed in
+  /etc/ld.so.conf.d/ctapi-*.conf for the target architecture.
+- Add a dependency on that directory in packages.
